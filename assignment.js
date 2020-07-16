@@ -7,6 +7,8 @@ console.log(result);*/
 
 
 
+
+
 /*function woodCalculator(chair,table,bed){
     var chair = chair * 1;
     var table = table * 3;
@@ -17,7 +19,10 @@ console.log(result);*/
 var result = woodCalculator(1,2,1);
 console.log(result);*/
 
-function tinayFriend(names){
+
+
+
+/*function tinayFriend(names){
     var small = names[0];
     for(var i = 0; i < names.length; i++){
         var currentName = names[i];
@@ -28,4 +33,13 @@ function tinayFriend(names){
     return small;
 }
 var result = tinayFriend([]);
-console.log(result);
+console.log(result);*/
+
+
+
+
+
+
+
+
+
