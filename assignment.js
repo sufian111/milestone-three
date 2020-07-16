@@ -37,7 +37,23 @@ console.log(result);*/
 
 
 
-
+function brickCalculator(floor){
+    if(floor<=10){
+        var totalFeet = floor * 15;
+        var totalBrick = totalFeet *1000;
+    }
+    else if(floor<=20){
+        var totalFeet = floor * 12;
+        var totalBrick = totalFeet *1000;
+    }
+    else{
+        var totalFeet = floor * 10;
+        var totalBrick = totalFeet *1000;
+    }
+    return totalBrick;
+}
+var result = brickCalculator(40);
+console.log(result);
 
 
 
