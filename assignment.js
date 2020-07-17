@@ -37,23 +37,30 @@ console.log(result);*/
 
 
 
-/*function brickCalculator(floor){
+function brickCalculator(floor){
     if(floor<=10){
         var totalFeet = floor * 15;
         var totalBrick = totalFeet *1000;
     }
     else if(floor<=20){
-        var totalFeet = floor * 12;
+        var firstTenfloorBrick = 10 * 15;
+        var remainingFloor = floor - 10;
+        var secondfloorbrick = remainingFloor * 12;
+        var totalFeet = firstTenfloorBrick + secondfloorbrick;
         var totalBrick = totalFeet *1000;
     }
     else{
-        var totalFeet = floor * 10;
+        var firstTenfloorBrick = 10 * 15;
+        var secondTenfloorbrick = 10 * 12;
+        var remainingFloor = floor - 20;
+        var thirdStageBrick = remainingFloor * 10;
+        var totalFeet = firstTenfloorBrick + secondTenfloorbrick + thirdStageBrick;
         var totalBrick = totalFeet *1000;
     }
     return totalBrick;
 }
 var result = brickCalculator();
-console.log(result);*/
+console.log(result);
 
 
 
